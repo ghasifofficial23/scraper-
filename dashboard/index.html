@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>B.L.A.S.T. — AI Intelligence Dashboard</title>
+  <meta name="description" content="Live AI news aggregator — Ben's Bites, The AI Rundown, and more. Curated, bookmarked, refreshed every 24 hours." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+
+  <!-- ════════════════════════ TOP NAV ════════════════════════ -->
+  <header class="topbar" id="topbar">
+    <div class="topbar-left">
+      <div class="logo-mark">
+        <svg width="28" height="28" viewBox="0 0 28 28" fill="none">
+          <path d="M4 24L14 4L24 24" stroke="#BFF549" stroke-width="3" stroke-linecap="square"/>
+          <path d="M8 17H20" stroke="#BFF549" stroke-width="3" stroke-linecap="square"/>
+        </svg>
+      </div>
+      <div class="logo-text">
+        <span class="logo-blast">B.L.A.S.T.</span>
+        <span class="logo-sub">AI INTELLIGENCE</span>
+      </div>
+    </div>
+
+    <nav class="topbar-nav" id="top-nav">
+      <button class="nav-btn active" data-filter="all" id="nav-all">ALL FEEDS</button>
+      <button class="nav-btn" data-filter="Ben's Bites" id="nav-bb">BEN'S BITES</button>
+      <button class="nav-btn" data-filter="The AI Rundown" id="nav-ar">AI RUNDOWN</button>
+      <button class="nav-btn" data-filter="Reddit" id="nav-rd">REDDIT</button>
+      <button class="nav-btn" data-filter="bookmarked" id="nav-bm">BOOKMARKED</button>
+      <a href="http://localhost:3000" target="_blank" class="nav-btn" style="color: #0EA5E9; text-decoration: none;">BOARD VIEW</a>
+    </nav>
+
+    <div class="topbar-right">
+      <div class="refresh-info" id="refresh-info">
+        <span class="refresh-dot" id="refresh-dot"></span>
+        <span id="refresh-label">Loading…</span>
+      </div>
+      <button class="btn-refresh" id="btn-refresh" title="Refresh Now">
+        <svg width="14" height="14" viewBox="0 0 14 14" fill="none">
+          <path d="M12 7A5 5 0 1 1 7 2M7 2L10 5M7 2L4 5" stroke="currentColor" stroke-width="1.5" stroke-linecap="square"/>
+        </svg>
+        REFRESH
+      </button>
+    </div>
+  </header>
+
+  <!-- ════════════════════════ STATS BAR ════════════════════════ -->
+  <div class="statsbar" id="statsbar">
+    <div class="stat-item">
+      <span class="stat-value" id="stat-total">—</span>
+      <span class="stat-label">TOTAL ARTICLES</span>
+    </div>
+    <div class="stat-divider"></div>
+    <div class="stat-item">
+      <span class="stat-value" id="stat-bb">—</span>
+      <span class="stat-label">BEN'S BITES</span>
+    </div>
+    <div class="stat-divider"></div>
+    <div class="stat-item">
+      <span class="stat-value" id="stat-ar">—</span>
+      <span class="stat-label">AI RUNDOWN</span>
+    </div>
+    <div class="stat-divider"></div>
+    <div class="stat-item">
+      <span class="stat-value" id="stat-rd">—</span>
+      <span class="stat-label">REDDIT</span>
+    </div>
+    <div class="stat-divider"></div>
+    <div class="stat-item">
+      <span class="stat-value" id="stat-bm">—</span>
+      <span class="stat-label">BOOKMARKED</span>
+    </div>
+    <div class="stat-divider"></div>
+    <div class="stat-item">
+      <span class="stat-value" id="stat-unread">—</span>
+      <span class="stat-label">UNREAD</span>
+    </div>
+  </div>
+
+  <!-- ════════════════════════ FILTER BAR ════════════════════════ -->
+  <div class="filterbar" id="filterbar">
+    <div class="filter-left">
+      <span class="filter-label">SHOW:</span>
+      <button class="filter-btn active" data-read-filter="all" id="filter-all">ALL</button>
+      <button class="filter-btn" data-read-filter="unread" id="filter-unread">UNREAD</button>
+      <button class="filter-btn" data-read-filter="read" id="filter-read">READ</button>
+    </div>
+    <div class="filter-right">
+      <div class="search-wrap">
+        <svg width="12" height="12" viewBox="0 0 12 12" fill="none" class="search-icon">
+          <circle cx="5" cy="5" r="4" stroke="#888" stroke-width="1.2"/>
+          <path d="M8.5 8.5L11 11" stroke="#888" stroke-width="1.2" stroke-linecap="square"/>
+        </svg>
+        <input type="text" class="search-input" id="search-input" placeholder="SEARCH ARTICLES…" />
+      </div>
+    </div>
+  </div>
+
+  <!-- ════════════════════════ MAIN CONTENT ════════════════════════ -->
+  <main class="main-content" id="main-content">
+
+    <!-- Left column: Ben's Bites news -->
+    <section class="col-news" id="col-news">
+      <div class="section-header">
+        <div class="section-title-wrap">
+          <span class="section-badge badge-bb">BB</span>
+          <h2 class="section-title">BEN'S BITES</h2>
+          <span class="section-count" id="bb-count">0</span>
+        </div>
+        <span class="section-sub">Latest AI news & tools</span>
+      </div>
+      <div class="article-list" id="bb-list">
+        <div class="skeleton-wrap">
+          <div class="skeleton-card"></div>
+          <div class="skeleton-card"></div>
+          <div class="skeleton-card"></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Right column: AI Rundown deep dives -->
+    <section class="col-dives" id="col-dives">
+      <div class="section-header">
+        <div class="section-title-wrap">
+          <span class="section-badge badge-ar">AR</span>
+          <h2 class="section-title">AI RUNDOWN</h2>
+          <span class="section-count" id="ar-count">0</span>
+        </div>
+        <span class="section-sub">Weekly workflow deep dives</span>
+      </div>
+      <div class="article-list dive-list" id="ar-list">
+        <div class="skeleton-wrap">
+          <div class="skeleton-card"></div>
+          <div class="skeleton-card"></div>
+          <div class="skeleton-card"></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Far Right column: Reddit -->
+    <section class="col-news" id="col-reddit">
+      <div class="section-header">
+        <div class="section-title-wrap">
+          <span class="section-badge badge-rd" style="background: #F43F5E;">RD</span>
+          <h2 class="section-title">REDDIT</h2>
+          <span class="section-count" id="rd-count">0</span>
+        </div>
+        <span class="section-sub">Top Daily Discussions</span>
+      </div>
+      <div class="article-list" id="rd-list">
+        <div class="skeleton-wrap">
+          <div class="skeleton-card"></div>
+          <div class="skeleton-card"></div>
+          <div class="skeleton-card"></div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ════════════════════════ EMPTY STATE ════════════════════════ -->
+  <div class="empty-state" id="empty-state" style="display:none">
+    <div class="empty-icon">
+      <svg width="48" height="48" viewBox="0 0 48 48" fill="none">
+        <rect x="8" y="8" width="32" height="32" stroke="#333" stroke-width="2"/>
+        <path d="M16 24H32M16 18H32M16 30H24" stroke="#444" stroke-width="2" stroke-linecap="square"/>
+      </svg>
+    </div>
+    <p class="empty-title">NO ARTICLES FOUND</p>
+    <p class="empty-sub">Try a different filter, or click Refresh to fetch new content.</p>
+  </div>
+
+  <!-- ════════════════════════ TOAST ════════════════════════ -->
+  <div class="toast" id="toast"></div>
+
+  <!-- ════════════════════════ LOADING OVERLAY ════════════════════════ -->
+  <div class="loading-overlay" id="loading-overlay">
+    <div class="loading-inner">
+      <div class="loader-bars">
+        <span></span><span></span><span></span><span></span>
+      </div>
+      <p>REFRESHING PIPELINE…</p>
+    </div>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>
