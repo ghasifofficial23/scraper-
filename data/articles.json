@@ -2,12 +2,24 @@
   "articles": [
     {
       "source": "Reddit",
+      "title": "New data: 29% of companies see real AI ROI while 60% plan layoffs for non-adopters - this split is accelerating fast",
+      "url": "https://www.reddit.com/r/ArtificialInteligence/comments/1sjri4y/new_data_29_of_companies_see_real_ai_roi_while_60/",
+      "summary": "I came across a large survey of 2,400 executives and employees on where AI adoption actually stands right now, and the divide it's creating is sharper than I expected.\n\n* 92% of executives are deliberately building an \"AI elite\" class inside their companies\n* Those power users are 5X more productive than colleagues not using AI\n* 44% of Gen Z workers admit to actively sabotaging their company's AI...",
+      "image_url": null,
+      "published_at": "2026-04-12T21:39:29+00:00",
+      "scraped_at": "2026-04-12T22:23:12.935006+00:00",
+      "id": "ca2a222aa9c9708e51b7499566892a72",
+      "bookmarked": false,
+      "read": false
+    },
+    {
+      "source": "Reddit",
       "title": "Safari translated “BBC” as “Big Black Cock” in Russian",
       "url": "https://www.reddit.com/r/ArtificialInteligence/comments/1sjqgb2/safari_translated_bbc_as_big_black_cock_in_russian/",
       "summary": "Was doing Safari page translation from English to Russian and saw that BBC in google results got translated into something absolutely insane😂\n\nI literally just translated the page and Safari decided that “BBC” should become “Большой чёрный член” which means big black cock.\n\nThis has to be one of the most broken Apple translation moments I’ve ever seen.\n\nMy God, at first I was like wtf? Why would a...",
       "image_url": null,
       "published_at": "2026-04-12T20:59:40+00:00",
-      "scraped_at": "2026-04-12T21:45:38.590313+00:00",
+      "scraped_at": "2026-04-12T22:23:12.934926+00:00",
       "id": "928781238df4d9e2ab5459c69149048b",
       "bookmarked": false,
       "read": false
@@ -427,7 +439,7 @@
       "summary": "I stopped overthinking and just built this.\n\nGOD’S EYE ( an advanced satellite intelligence tool) \n\nIt’s basically one map, but stacked with live global data:\n\n\t•\tAircraft tracking (ADS-B) → see commercial + military flights moving in real time\n\n\t•\tShip tracking (AIS) → global maritime traffic, choke points, weird patterns\n\n\t•\tSatellite imagery → scroll dates, compare before/after, NDVI, thermal, ...",
       "image_url": null,
       "published_at": "2026-04-12T19:04:07+00:00",
-      "scraped_at": "2026-04-12T21:45:38.590328+00:00",
+      "scraped_at": "2026-04-12T22:23:12.934958+00:00",
       "id": "96fb2a04c7f9e2eaf49148837c732a43",
       "bookmarked": false,
       "read": false
@@ -439,7 +451,7 @@
       "summary": "Anthropic mentioned that Claude Mythos is so strong that they’re holding off on releasing it to everyone. By the way, ChatGPT also mentioned something similar in 2019. You can see it in the image attached! I’m not saying Claude Mythos will be as good as GPT, but I’m just highlighting that companies sometimes do this to promote their products.\n\nNote: I use Claude regularly.",
       "image_url": null,
       "published_at": "2026-04-12T18:36:30+00:00",
-      "scraped_at": "2026-04-12T21:45:38.590277+00:00",
+      "scraped_at": "2026-04-12T22:23:12.934903+00:00",
       "id": "12f4340a3b91700e51c5acdd99f40e01",
       "bookmarked": false,
       "read": false
@@ -451,7 +463,7 @@
       "summary": "Since I studied psychology I have access to an IQ Test. It is called IST2000R from the year 2007. It is not the most modern test anymore, but I was curious how Gemini (free version, fast model) would perform. The beauty of this test is that it measures not only one overall IQ score, which is quite worthless for real life applications, but also 9 different subscores.\n\nThose are:  \nComplete the sent...",
       "image_url": null,
       "published_at": "2026-04-12T18:03:40+00:00",
-      "scraped_at": "2026-04-12T21:45:38.590344+00:00",
+      "scraped_at": "2026-04-12T22:23:12.934975+00:00",
       "id": "83e0184e59bb669905977f49b6a3454f",
       "bookmarked": false,
       "read": false
@@ -463,7 +475,7 @@
       "summary": "The open-source community's long-simmering identity crisis over artificial intelligence just got a much-needed dose of pragmatism. This week, the Linux kernel project finally established a formal, project-wide policy explicitly allowing AI-assisted code contributions provided that developers follow strict new disclosure rules. The new guidelines mandate that AI agents cannot use the legally bindin...",
       "image_url": null,
       "published_at": "2026-04-12T17:31:31+00:00",
-      "scraped_at": "2026-04-12T21:45:38.590256+00:00",
+      "scraped_at": "2026-04-12T22:23:12.934885+00:00",
       "id": "2b276ef770acc2d2d6c8183015a701cd",
       "bookmarked": false,
       "read": false
@@ -475,7 +487,7 @@
       "summary": "i saw a post that said, 'oh, who will be working if ai takes all jobs?' then i saw another post saying 'the ai capitalists best interests is to have as many workers as possible so they have the most profit in the ai era''. \n\nmy brother in christ the latter is most likely true. the same logic applies to horsecarts. since we invented the motor car i am now travelling more than i ever than I would on...",
       "image_url": null,
       "published_at": "2026-04-12T17:01:30+00:00",
-      "scraped_at": "2026-04-12T21:45:38.590232+00:00",
+      "scraped_at": "2026-04-12T22:23:12.934856+00:00",
       "id": "97fd27831ad07330e68ea896347c7b75",
       "bookmarked": false,
       "read": false
@@ -487,7 +499,7 @@
       "summary": "There’s something that feels overlooked in the whole “AI will cut costs and boost profits” narrative.\n\nIf AI replaces a large number of jobs, that doesn’t just reduce expenses — it also reduces the number of people with disposable income. And if fewer people have money to spend, consumer demand drops.\n\nBut consumer spending is what drives revenue in the first place. At some point, the system start...",
       "image_url": null,
       "published_at": "2026-04-12T12:52:22+00:00",
-      "scraped_at": "2026-04-12T21:45:38.590188+00:00",
+      "scraped_at": "2026-04-12T22:23:12.934656+00:00",
       "id": "bbd1eea0b523d4596ca86fe3f5af6ffc",
       "bookmarked": false,
       "read": false
@@ -499,7 +511,7 @@
       "summary": "So people are fearful of losing their jobs, and several studies have come out stating employees are deliberately sabotaging their companies AI rollout.\n\nCompanies that didn't use AI have thrived for all time, and the vast majority of today's big corps got there without it.\n\nWill we start seeing 'Organic' companies, where AI use is strictly forbidden for tasks that humans can do? \n\n\nEdit: I will cl...",
       "image_url": null,
       "published_at": "2026-04-12T10:32:25+00:00",
-      "scraped_at": "2026-04-12T21:45:38.590296+00:00",
+      "scraped_at": "2026-04-12T22:23:12.934943+00:00",
       "id": "5254afd0821ca987de27606890ac5251",
       "bookmarked": false,
       "read": false
@@ -523,7 +535,7 @@
       "summary": "Something I’ve noticed is before the new model, people complained that ChatGPT was “too agreeable” and would glaze you for anything. But now I’ve noticed that it’s the complete opposite and it looks like ChatGPT is disagreeing just to disagree. There used to be this one topic that I would talk about with ChatGPT and on previous models i managed to convince it and i could actually talk about it.\n\nB...",
       "image_url": null,
       "published_at": "2026-04-12T00:53:26+00:00",
-      "scraped_at": "2026-04-12T21:45:38.590361+00:00",
+      "scraped_at": "2026-04-12T22:23:12.934991+00:00",
       "id": "64bb4fc756d124277ecea5b440d4b2b3",
       "bookmarked": false,
       "read": false
@@ -535,7 +547,7 @@
       "summary": "and Meta makes an unexpected entry",
       "image_url": "https://substack-post-media.s3.amazonaws.com/public/images/6cc690ca-ad01-4aa9-afa8-c273b522a9be_1024x572.png",
       "published_at": "2026-04-09T08:05:10+00:00",
-      "scraped_at": "2026-04-12T21:45:36.903958+00:00",
+      "scraped_at": "2026-04-12T22:23:11.344592+00:00",
       "id": "fb41a8b36118bbf1d17cbd623051156f",
       "bookmarked": false,
       "read": false
@@ -547,18 +559,18 @@
       "summary": "in 3 months, Anthropic added $6B ARR",
       "image_url": "https://substack-post-media.s3.amazonaws.com/public/images/ad7fffbe-f276-4fd9-ad4e-9309f410f1bd_2848x1504.jpeg",
       "published_at": "2026-04-07T08:15:47+00:00",
-      "scraped_at": "2026-04-12T21:45:36.904036+00:00",
+      "scraped_at": "2026-04-12T22:23:11.344665+00:00",
       "id": "89c598f25c5b078d88cc4e5cae2c2256",
       "bookmarked": false,
       "read": false
     }
   ],
   "meta": {
-    "last_refreshed": "2026-04-12T21:45:38.603173+00:00",
-    "total_articles": 46,
+    "last_refreshed": "2026-04-12T22:23:12.947937+00:00",
+    "total_articles": 47,
     "sources_scraped": [
-      "Reddit",
-      "Ben's Bites"
+      "Ben's Bites",
+      "Reddit"
     ]
   }
 }
