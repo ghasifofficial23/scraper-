@@ -98,7 +98,7 @@ def start_flask_server():
     @app.route("/api/status", methods=["GET"])
     def status():
         import json
-        payload_path = os.path.join(os.path.dirname(__file__), "..", "data", "articles.json")
+        payload_path = os.path.join(os.path.dirname(__file__), "..", "frontend", "public", "data", "articles.json")
         try:
             with open(payload_path) as f:
                 data = json.load(f)

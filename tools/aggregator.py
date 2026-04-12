@@ -21,7 +21,7 @@ log = logging.getLogger(__name__)
 
 BASE = os.path.dirname(__file__)
 TMP = os.path.join(BASE, "..", ".tmp")
-DATA = os.path.join(BASE, "..", "data")
+DATA = os.path.join(BASE, "..", "frontend", "public", "data")
 PAYLOAD_PATH = os.path.join(DATA, "articles.json")
 BOOKMARKS_PATH = os.path.join(DATA, "bookmarks.json")
 
